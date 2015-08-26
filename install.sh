@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo mkdir /usr/local/lib/note &&
 sudo cp ./note.py /usr/local/lib/note/note.py &&
 sudo chmod +x /usr/local/lib/note/note.py &&
 sudo ln /usr/local/lib/note/note.py /usr/local/bin/note  &&
